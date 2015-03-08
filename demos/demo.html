@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>layout-header-footer Demo</title>
+
+  <script src="../../webcomponentsjs/webcomponents.js"></script>
+
+  <link rel="import" href="../layout-header-footer.html">
+  <link rel="import" href="lorem-ipsum.html">
+
+  <style>
+    .header {
+      background: #f0f0f0;
+      font-size: 1.5em;
+      padding: 1em;
+    }
+    .footer {
+      background: #99ffd7;
+      font-size: 1.2em;
+      padding: 0.5em;
+    }
+  </style>
+
+</head>
+
+<body unresolved fullbleed>
+
+  <layout-header-footer>
+
+    <div class="header">Header</div>
+    <!--<core-toolbar> works great as a header or footer. Just make sure to give it the appropriate class.-->
+
+    <lorem-ipsum paragraphs="20" class="content"></lorem-ipsum>
+
+    <div class="footer">Footer</div>
+
+  </layout-header-footer>
+
+</body>
+
+</html>

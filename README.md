@@ -1,7 +1,7 @@
 # layout-header-footer
 
-See the [component page](http://.github.io/layout-header-footer) for more information.
+Element to create a layout that includes a collapsible header toolbar and static footer toolbar.
 
-## Getting Started
+## Installation
 
-We've put together a [guide for layout-header-footer](http://www.polymer-project.org/docs/start/reusableelements.html) to help get you rolling.
+`bower install --save broccoliboy/layout-header-footer`
